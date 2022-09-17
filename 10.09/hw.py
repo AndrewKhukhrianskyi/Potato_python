@@ -16,7 +16,7 @@ water_per_circle = 0.5
 print('Circles: ', water * water_per_circle)
 
 # Task 4 - Runner (Mod)
-print('Task 3 - Runner Mod')
+print('Task 4 - Runner Mod')
 water = int(input('Amount of water: '))
 water_per_circle = float(input('Water per circle: '))
 print('Circles: ', water * water_per_circle)
