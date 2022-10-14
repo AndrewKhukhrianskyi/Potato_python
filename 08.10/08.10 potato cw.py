@@ -1,5 +1,5 @@
 from time import sleep # sleep заставляет программу поспать
-'''
+
 # Dynamic object (Динамический тип данных)
 # Строка
 word = 'text'
@@ -39,7 +39,7 @@ word = input('Введите слово: ')
 word_length = len(word)
 for letter in range(0, word_length, 2):
     print(word[letter])
-'''
+
 # Цикл в цикле
 for index in range(5):
     print(f'INDEX: {index}')
