@@ -72,4 +72,3 @@ if len(word) == 0:
     print('')
 else:
     print(word)
-
