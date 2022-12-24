@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 def create_character():
     def add_abilities(abilities):
@@ -55,17 +56,6 @@ def create_character():
         print("Error. Неизвестная команда.")
 
     return name, abilities
-
-database_items = {'Название' : ["Повторяемое название", "Урон"],
-                  'Нож' : ["Нож", 10],
-                  }
-hero = create_character()
-
-stamina = 100
-hp = 100
-items = []
-print(hero)
-
 def fight_enemy(player, player_dmg, enemy_list):
     player_chance = 50
     enemy_name = []
@@ -89,6 +79,30 @@ def fight_enemy(player, player_dmg, enemy_list):
                     enemy_hp[enemy] -= player_dmg
             else:
                 print("промах")
-    # TODO - Написать функцию с главами 1-2
+
+def chapter_1(name, attributes, hp, stamina, items, funcs):
+    print('Нью-Дели. Болливуд.')
+    sleep(2)
+    print('Пускай это и не оттуда.')
+    sleep(2)
+    print('Вонючий и старый город, как скажите 300.')
+    sleep(2)
+    print(f'Но это не важно, ведь меня зовут {name}')
+    sleep(2)
+    
+database_items = {'Название' : ["Повторяемое название", "Урон"],
+                  'Нож' : ["Нож", 10],
+                  }
+hero = create_character()
+
+stamina = 100
+hp = 100
+items = []
+funcs = {'fight' : fight_enemy}
+print(hero)
+
+
+
+chapter_1(hero[0], hero[1], hp, stamina, items, funcs)
                 
                 

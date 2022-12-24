@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 def create_killer():
     def set_stat(abilities):
@@ -60,7 +61,8 @@ def get_perks(perk):
                       "Гладиатор: Шанс убийства оппонента в бою увеличивается в два раза" : 20,
                       "Морда кирпичом: Шанс убеждения увеличен" : 5,
                       "Неудачник: Вы никого не убили и вам почему-то не везет..": -50,
-                      "Призрак Спарты: Вы остаетесь в здравом психическом состоянии." : 0}
+                      "Призрак Спарты: Вы остаетесь в здравом психическом состоянии." : 0,
+                      'Тестовый перк: Этот перк ничего не делает ': 0}
     return database[perk]
 
 def fight(killer_hp, hero, enemy_count, enemy_hp, enemy_dmg, item_list):
@@ -82,10 +84,31 @@ def fight(killer_hp, hero, enemy_count, enemy_hp, enemy_dmg, item_list):
         print("После долгой борьбы жертва была убита...")
         return killer_hp, hero, item_list
 
+def chapter_1(name, hp, items, abilities, mood, funcs):
+    print(f'Меня зовут {name}.')
+    sleep(2)
+    print('Я ничего не чувствую.')
+    sleep(2)
+    print('Любая радость, грусть и прочее не приносили мне счастья.')
+    sleep(2)
+    print('Папа всегда дарил мне различные вещи, но я не испытывала никаких эмоций.')
+    sleep(2)
+    print('Единственную эмоцию, которую у меня вызывал мой папа - это жалость.')
+    sleep(2)
+    print('Жалость того, что он страдает в пустую.')
+    sleep(2)
+    print('И тут, когда папа подарил очередную вещь, я поняла, что нужно играть.')
+    sleep(2)
+    print('Играть эмоциями.')
+    sleep(2)
+    print('И я улыбнулась и начала радоваться.')
+    sleep(2)
 # TODO - наисать главу 1 в виде функции
     
 hero = create_killer()
 hp = 100
 psychical_mood = 0
 items = []
+funcs = {'get_perks' : get_perks}
+chapter_1(hero[0], hp, items,hero[1], psychical_mood, funcs)
 
