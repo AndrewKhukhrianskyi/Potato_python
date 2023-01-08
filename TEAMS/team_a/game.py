@@ -112,3 +112,14 @@ items = []
 funcs = {'get_perks' : get_perks}
 chapter_1(hero[0], hp, items,hero[1], psychical_mood, funcs)
 
+
+
+
+# ПИСАТЬ ОТСЮДА
+from time import sleep
+
+def chapter_1():
+    ...
+
+chapter_1()
+
