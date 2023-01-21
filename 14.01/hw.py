@@ -4,7 +4,7 @@ from random import randint, choice
 
 root = Tk()
 number_1, number_2 = 500, 500
-screen_name = 'Окно'
+screen_name = 'Dungeon Master'
 # Task 1 - Set Title Name
 root.title(screen_name)
 # Task 2 - Set title size
