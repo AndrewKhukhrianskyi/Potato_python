@@ -5,13 +5,13 @@ from time import sleep
 
 def save_data():
     text_data = text.get(0.0, END)
-    file = open('save_data', 'w')
+    file = open('save_data.txt', 'w')
     file.write(text_data.strip())
     file.close()
  
 root = Tk()
 root.geometry('200x200')
-"""
+
 label = Label(width=20,
               text='Введите текст внизу:')
 text = Text(width=20,
@@ -25,8 +25,8 @@ widgets = [label, text, save_button]
 
 for widget in widgets:
     widget.pack(anchor='n')
-"""
 
+"""
 # Task 2 - Анкета
 
 def save_data_blank():
@@ -69,5 +69,5 @@ widgets = [name_label, text_name,
            age_label, text_age, button]
 for widget in widgets:
     widget.pack(anchor = 'n')
-
+"""
 root.mainloop()
