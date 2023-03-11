@@ -40,7 +40,11 @@ def more_or_less():
 def blackjack():
     card_score = 0
 
+<<<<<<< HEAD
     def show_results():
+=======
+    def show_results(score=card_score):
+>>>>>>> 3e61b9bb354a141e01b22f133b117f3f3480fab4
         player_score, pc_score = [], []
 
         cards = int(text.get(0.0, END).strip())
@@ -114,3 +118,7 @@ for widget in widgets:
     widget.pack(anchor='n')
 
 window.mainloop()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e61b9bb354a141e01b22f133b117f3f3480fab4
