@@ -1,0 +1,5 @@
+1. Почитать о GUI
+2. Почитать о разнице между UI\UX
+3. Почитать о HUD
+4. https://www.codewars.com/kata/6405f2bb2894f600599172fd
+5. https://www.codewars.com/kata/5831c204a31721e2ae000294
