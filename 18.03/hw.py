@@ -3,7 +3,7 @@ from tkinter import *
 import tkinter.messagebox as mb
 
 # Task 1 - Fields
-'''
+
 def save_data():
     save_msg = mb.askyesno(title='Question',
                            message='Do you want to save this data?')
@@ -11,7 +11,7 @@ def save_data():
     # Достаем текст из полей и сразу добавляем их в список
     text_list = [widget.get(0.0, END) for widget in fields] 
     if save_msg:
-        file = open('Potato_python\\18.03\\save.txt', 'w')
+        file = open('save.txt', 'w')
         for elem in text_list:
             file.write(elem)
         mb.showinfo(title='Saved!',
@@ -55,11 +55,11 @@ for widget in widgets:
     widget.pack(anchor='n')
 
 window.mainloop()
-'''
+
 
 # Task 2 - XX & XY
 
 def check_chromosomes(string):
     return 'girl' if string[-1] == 'X' else 'boy'
 
-print(check_chromosomes('XYYXYXYXYXYYXXYXYX'))
+#print(check_chromosomes('XYYXYXYXYXYYXXYXYXY'))
