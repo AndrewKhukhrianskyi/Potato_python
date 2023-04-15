@@ -19,7 +19,7 @@ BUTTON_WIDTH = 10
 BUTTON_HEIGHT = 1
 
 TEXT_WIDTH = 50
-TEXT_HEIGHT = 15
+TEXT_HEIGHT = 10
 
 TEXT_ENTRY_WIDTH = 50
 TEXT_ENTRY_HEIGHT = 1
@@ -39,4 +39,8 @@ ANALYZE_TEXT_LIST = ["Кол-во гласных букв:",
 LANGUAGE_RU ='абвгдеёжзийклмнопрстюфхцчшщьъэюя'
 LANGUAGE_UA = 'абвгґдеєжзиіїйклмнопрстуфхцчшщьюя'
 LANGUAGE_EN = 'abcdefghijklmnopqrstuvwxyz'
+
+# Координаты
+X = 0
+Y = 0
 
