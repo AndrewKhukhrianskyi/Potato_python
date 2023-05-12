@@ -33,7 +33,7 @@ https://docs.pytest.org/en/7.1.x/reference/reference.html?highlight=fixture#pyte
 2. Почитать о служебных метках (skip, skipif, parametrize):
 https://docs.pytest.org/en/7.1.x/reference/reference.html?highlight=pytest%20mark#pytest.Mark
 3. Решить задачу и протестировать ее:
-https://www.codewars.com/kata/62c93765cef6f10030dfa92b
+https://www.codewars.com/fkata/62c93765cef6f10030dfa92b
 '''
 
 
