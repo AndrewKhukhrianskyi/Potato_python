@@ -62,6 +62,3 @@ for word in big_words:
 
 print(new_list)
 
-'''
-HW
-1. Почитать о регулярных выражениях: 
