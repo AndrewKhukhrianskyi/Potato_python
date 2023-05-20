@@ -6,3 +6,4 @@ def test_task(start, finish, result):
         n = finish - start
         return n // 3 + n % 3
     assert solution(start, finish) == result
+
